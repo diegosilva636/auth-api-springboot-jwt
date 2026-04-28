@@ -47,10 +47,12 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
   "password": "123456"
 }
 
+
 {
   "message": "Login OK",
   "token": "jwt_token"
 }
+
 
 git clone https://github.com/diegosilva636/auth-api-springboot-jwt
 cd auth-api-springboot-jwt
