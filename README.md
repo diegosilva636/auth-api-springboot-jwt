@@ -1,21 +1,20 @@
-# 🔐 Auth API - Spring Boot + JWT
+🔐 Auth API - Spring Boot + JWT
 
-API REST de autenticação desenvolvida com Java e Spring Boot, focada em segurança e boas práticas de arquitetura backend.
+API REST de autenticação desenvolvida com Java e Spring Boot, implementando criptografia de senha e geração de tokens JWT para login seguro, seguindo boas práticas de arquitetura backend.
 
 ## 🚀 Sobre o projeto
 
 Esta API implementa um fluxo completo de autenticação com:
 
-- Cadastro de usuários
+- Cadastro de usuários com validação
 - Criptografia de senha com BCrypt
-- Login seguro
-- Geração de token JWT
+- Autenticação segura via login
+- Geração de tokens JWT com expiração
 - Respostas padronizadas com DTO
 
 Projeto estruturado seguindo princípios de separação de responsabilidades e preparado para evolução.
 
 ---
-
 ## 🧰 Tecnologias
 
 - Java 17
@@ -29,3 +28,10 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
 ---
 
 ## 📁 Arquitetura
+
+- controller → entrada da API
+- dto → objetos de transferência
+- model → entidades
+- repository → acesso ao banco
+- security → JWT e autenticação
+- config → configurações
