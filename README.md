@@ -34,10 +34,10 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
 - repository → acesso ao banco
 - security → JWT e autenticação
 - config → configurações
-
----
-
-## 🔐 Exemplo de Login
+cd auth-api-springboot-jwt
+mvn spring-boot:run
+  '''
+  ## 🔐 Exemplo de Login
 
 ### 📥 Pedido
 
@@ -46,19 +46,12 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
   "email": "user@email.com",
   "password": "123456"
 }
-´´´
-´´´
+'''
 {
   "message": "Login OK",
   "token": "jwt_token"
 }
-´´´
-´´´
-
-## ⚙️ Como rodar
-
-```bash
+'''
 git clone https://github.com/diegosilva636/auth-api-springboot-jwt
 cd auth-api-springboot-jwt
 mvn spring-boot:run
-```
