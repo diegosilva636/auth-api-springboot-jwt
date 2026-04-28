@@ -41,16 +41,22 @@ mvn spring-boot:run
 
 ### 📥 Pedido
 
-```json
-{
-  "email": "user@email.com",
-  "password": "123456"
-}
-'''
-{
-  "message": "Login OK",
-  "token": "jwt_token"
-}
-git clone https://github.com/diegosilva636/auth-api-springboot-jwt
-cd auth-api-springboot-jwt
-mvn spring-boot:run 
+    {
+      "email": "user@email.com",
+      "password": "123456"
+    }
+
+### 📤 Resposta
+
+    {
+      "message": "Login OK",
+      "token": "jwt_token"
+    }
+
+---
+
+## ⚙️ Como rodar
+
+    git clone https://github.com/diegosilva636/auth-api-springboot-jwt
+    cd auth-api-springboot-jwt
+    mvn spring-boot:run
