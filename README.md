@@ -46,6 +46,7 @@ mvn spring-boot:run
   "email": "user@email.com",
   "password": "123456"
 }
+'''
 {
   "message": "Login OK",
   "token": "jwt_token"
