@@ -26,7 +26,6 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
 - Maven
 
 ---
-
 ## 📁 Arquitetura
 
 - controller → entrada da API
@@ -36,18 +35,23 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
 - security → JWT e autenticação
 - config → configurações
 
+---
+
 ## 🔐 Exemplo de Login
 
-### Request
+### 📥 Request
 
 ```json
 {
   "email": "user@email.com",
   "password": "123456"
-}{
+}
+
+{
   "message": "Login OK",
   "token": "jwt_token"
 }
+
 git clone https://github.com/diegosilva636/auth-api-springboot-jwt
 cd auth-api-springboot-jwt
 mvn spring-boot:run
