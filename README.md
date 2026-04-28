@@ -47,12 +47,13 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
   "password": "123456"
 }
 ´´´
+´´´
 {
   "message": "Login OK",
   "token": "jwt_token"
 }
 ´´´
----
+´´´
 
 ## ⚙️ Como rodar
 
