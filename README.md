@@ -46,3 +46,7 @@ Projeto estruturado seguindo princípios de separação de responsabilidades e p
   "email": "user@email.com",
   "password": "123456"
 }
+{
+  "message": "Login OK",
+  "token": "jwt_token"
+}
